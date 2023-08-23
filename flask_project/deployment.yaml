@@ -19,4 +19,4 @@ spec:
           image: manufacturingbigdata/flask-demo:latest
           ports:
             - containerPort: 5000
-      nodeName: ubun20-03
+      nodeName: ubun20-02
