@@ -35,4 +35,4 @@ jobs:
 
       # 5. Docker Hub 이미지 푸시
       - name: docker Hub push
-        run: docker push ${{ secrets.DOCKER_USER }}/spring-demo
+        run: docker push ${{ secrets.DOCKER_USER }}/flask-demo
